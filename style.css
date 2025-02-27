@@ -1,4 +1,4 @@
-
+/* Основні стилі сторінки */
 body {
     font-family: Arial, sans-serif;
     background: #fcf8f2;
@@ -7,7 +7,7 @@ body {
     color: #2c2c2c;
 }
 
-
+/* Шапка сайту */
 header {
     display: flex;
     justify-content: space-between;
@@ -38,7 +38,7 @@ nav ul li a {
     font-weight: 500;
 }
 
-
+/* Кнопки авторизації */
 .auth-buttons button {
     padding: 10px 20px;
     border: none;
@@ -62,7 +62,7 @@ nav ul li a {
     background: #e87c3d;
 }
 
-
+/* Герой секція */
 .hero {
     display: flex;
     justify-content: space-between;
@@ -85,7 +85,7 @@ nav ul li a {
     max-width: 450px;
 }
 
-
+/* Кнопки у секції героя */
 .cta-buttons button {
     margin-right: 15px;
     padding: 14px 22px;
@@ -116,6 +116,7 @@ nav ul li a {
     color: #fff;
 }
 
+/* Стилі для зображення */
 .hero-image img {
     width: 350px;
     height: auto;
@@ -123,6 +124,7 @@ nav ul li a {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
+/* Секція компаній */
 .trusted-by {
     text-align: center;
     padding: 50px 0;
@@ -151,6 +153,7 @@ nav ul li a {
     opacity: 1;
 }
 
+/* Секція функцій */
 .features {
     text-align: center;
     padding: 60px 20px;
@@ -223,15 +226,7 @@ nav ul li a {
             background: #f0f0f0;
             border-radius: 10px;
         }
-        .cta-button {
-            display: block;
-            padding: 10px;
-            background: blue;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 10px;
-        }
+    
         .info-section {
             display: flex;
             align-items: center;
@@ -267,15 +262,7 @@ nav ul li a {
             background: #f0f0f0;
             border-radius: 10px;
         }
-        .cta-button {
-            display: block;
-            padding: 10px;
-            background: blue;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 10px;
-        }
+        
         .info-section {
             display: flex;
             align-items: center;
@@ -311,15 +298,7 @@ nav ul li a {
             background: #f0f0f0;
             border-radius: 10px;
         }
-        .cta-button {
-            display: block;
-            padding: 10px;
-            background: blue;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 10px;
-        }
+        
         .info-section {
             display: flex;
             align-items: center;
@@ -357,9 +336,7 @@ nav ul li a {
         .cta-button {
             display: block;
             padding: 10px;
-            background: blue;
-            color: white;
-            text-decoration: none;
+            color: black;
             border-radius: 5px;
             margin-top: 10px;
         }
@@ -375,4 +352,76 @@ nav ul li a {
         .info-image img {
             width: 100%;
             border-radius: 10px;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .highlight {
+            color: orange;
+        }
+
+        .section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 50px 0;
+        }
+
+        .text {
+            width: 45%;
+            text-align: left;
+        }
+
+        .text h3 {
+            font-size: 20px;
+            color: #2d2d7f;
+        }
+
+        .text .highlight {
+            color: orange;
+        }
+
+        .text ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .text ul li {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .text ul li img {
+            width: 20px;
+            margin-right: 10px;
+        }
+
+        .image {
+            width: 45%;
+            text-align: center;
+        }
+
+        .image img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .bottom-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .bottom-section .image {
+            width: 40%;
+        }
+
+        .bottom-section .text {
+            width: 50%;
         }
