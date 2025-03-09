@@ -425,3 +425,156 @@ nav ul li a {
         .bottom-section .text {
             width: 50%;
         }
+        
+
+        .edu-container-main {
+            max-width: 1500px;
+            margin: auto;
+        }
+        .edu-section-box {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .edu-content-area {
+            flex: 1;
+        }
+        .edu-title-heading {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .edu-highlight-text {
+            color: #ff9800;
+        }
+        .edu-description-text {
+            font-size: 16px;
+            color: #333;
+        }
+
+
+
+        .edu-wrapper-global {
+            max-width: 1200px;
+            margin: auto;
+        }
+        .edu-feature-box {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .edu-logo-container {
+            display: flex;
+            gap: 10px;
+        }
+        .edu-logo-container img {
+            width: 80px;
+            height: auto;
+        }
+        .edu-feature-box img.edu-testimonial {
+            width: 300px;
+            height: auto;
+        }
+        .edu-content-container {
+            flex: 1;
+        }
+        .edu-heading-large {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .edu-highlight-emphasis {
+            color: #ff9800;
+        }
+        .edu-description-textual {
+            font-size: 16px;
+            color: #333;
+        }
+        .edu-action-button {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #ff9800;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .edu-news-section {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .edu-news-main {
+            flex: 2;
+        }
+        .edu-news-main img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .edu-news-side {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .edu-news-side img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+
+
+    
+    .skilline-container {
+        text-align: center;
+        background-color: #030a46b4;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .skilline-title {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+    .skilline-subtitle {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+    .skilline-subscribe {
+        margin-bottom: 20px;
+    }
+    .skilline-subscribe input[type="email"] {
+        padding: 10px;
+        width: 200px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .skilline-subscribe button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .skilline-footer {
+        margin-top: 20px;
+        font-size: 0.9em;
+    }
+    .skilline-footer a {
+        color: #007bff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    .skilline-footer a:hover {
+        text-decoration: underline;
+    }
